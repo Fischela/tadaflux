@@ -28,12 +28,16 @@ app.use(express.json())
 app.use(cors())
 
 //auth routes
+app.use(express.static(__dirname+"/build"))
+
 
 readdirSync("./routes").map((r)=>app.use('/api', require('./routes/'+r)))
 
 app.get("/", (req, res)=>{
     res.sendFile(__dirname+"/build/"+"index.html")
 })
+
+console.log(__dirname+"/build/"+"index.html")
 
 
 app.get("/api", (req, res)=>{
