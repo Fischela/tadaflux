@@ -1,20 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccd2dbe9.chunk.css",
-    "main.js": "/static/js/main.64c666d9.chunk.js",
-    "main.js.map": "/static/js/main.64c666d9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.992e4ec4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.992e4ec4.js.map",
-    "static/js/2.2d07e6b7.chunk.js": "/static/js/2.2d07e6b7.chunk.js",
-    "static/js/2.2d07e6b7.chunk.js.map": "/static/js/2.2d07e6b7.chunk.js.map",
+    "main.css": "/static/css/main.8ca9a23a.chunk.css",
+    "main.js": "/static/js/main.5c7fbb57.chunk.js",
+    "main.js.map": "/static/js/main.5c7fbb57.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b8b9f84b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b8b9f84b.js.map",
+    "static/js/2.d2eea5d3.chunk.js": "/static/js/2.d2eea5d3.chunk.js",
+    "static/js/2.d2eea5d3.chunk.js.map": "/static/js/2.d2eea5d3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ccd2dbe9.chunk.css.map": "/static/css/main.ccd2dbe9.chunk.css.map",
-    "static/js/2.2d07e6b7.chunk.js.LICENSE.txt": "/static/js/2.2d07e6b7.chunk.js.LICENSE.txt"
+    "precache-manifest.23879be3e52614bc2fff9599c75783a6.js": "/precache-manifest.23879be3e52614bc2fff9599c75783a6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8ca9a23a.chunk.css.map": "/static/css/main.8ca9a23a.chunk.css.map",
+    "static/js/2.d2eea5d3.chunk.js.LICENSE.txt": "/static/js/2.d2eea5d3.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/feature-tile-icon-01.svg": "/static/media/feature-tile-icon-01.0f9928d7.svg",
+    "static/media/feature-tile-icon-02.svg": "/static/media/feature-tile-icon-02.bd39f304.svg",
+    "static/media/feature-tile-icon-03.svg": "/static/media/feature-tile-icon-03.66f37ba5.svg",
+    "static/media/feature-tile-icon-04.svg": "/static/media/feature-tile-icon-04.836acd10.svg",
+    "static/media/feature-tile-icon-05.svg": "/static/media/feature-tile-icon-05.fa9ba00b.svg",
+    "static/media/feature-tile-icon-06.svg": "/static/media/feature-tile-icon-06.6a177696.svg",
+    "static/media/logo.png": "/static/media/logo.4a383ea5.png",
+    "static/media/ready-to-use.svg": "/static/media/ready-to-use.761850f3.svg",
+    "static/media/smartTradind terminals.jpg": "/static/media/smartTradind terminals.a9adb4ad.jpg",
+    "static/media/trading Bots.jpg": "/static/media/trading Bots.519285d1.jpg",
+    "static/media/video-placeholder.jpg": "/static/media/video-placeholder.a622fc5d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.992e4ec4.js",
-    "static/js/2.2d07e6b7.chunk.js",
-    "static/css/main.ccd2dbe9.chunk.css",
-    "static/js/main.64c666d9.chunk.js"
+    "static/js/runtime-main.b8b9f84b.js",
+    "static/js/2.d2eea5d3.chunk.js",
+    "static/css/main.8ca9a23a.chunk.css",
+    "static/js/main.5c7fbb57.chunk.js"
   ]
 }
