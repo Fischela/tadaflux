@@ -4,7 +4,7 @@ import {toast}  from 'react-toastify';
 import { Button,  } from 'antd';
 import  {Link} from 'react-router-dom';
 
-import {MailOutlined, LoadingOutlined , GoogleOutlined} from '@ant-design/icons';
+// import {MailOutlined, LoadingOutlined , GoogleOutlined} from '@ant-design/icons';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { createOrUpdateUser } from '../../functions/createUpdate';

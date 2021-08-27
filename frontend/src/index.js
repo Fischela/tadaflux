@@ -1,20 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router } from "react-router-dom";
+import { BrowserRouter, Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
+import "antd/dist/antd.css";
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {composeWithDevTools} from "redux-devtools-extension"
+
 
 //import './App.css';
 import './assets/scss/style.scss';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import rootReducer from './reducer'
+
+const store = createStore(rootReducer, composeWithDevTools())
+
 
 const history = createBrowserHistory();
 
 ReactDOM.render(
-  <Router history={history}>
-    <App />
-  </Router>,
+  <Provider store={store}>  
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </Provider>,
   document.getElementById('root')
 );
 

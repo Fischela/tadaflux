@@ -51,7 +51,7 @@ const Cta = ({
         <div
           className={innerClasses}
         >
-          <div className="cta-slogan">
+          <div className="cta-slogan ">
             <h3 className="m-0">
               Suscribe to Our Monthly's To get the Latest Crypto Happenings
               </h3>

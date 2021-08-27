@@ -50,7 +50,7 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Manage your positions in one tap with the 3Commas mobile app',
+    title: 'Manage your positions in one tap with the TadaFlux mobile app',
     paragraph: 'Download the mobile application, track strategy statistics, launch bots, and close orders. Whether you’re at home or on the road, manage your positions anywhere.'
   };
 

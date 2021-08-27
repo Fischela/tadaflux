@@ -4,10 +4,13 @@ import {toast}  from 'react-toastify';
 import { Button,  } from 'antd';
 import  {Link} from 'react-router-dom';
 
+
+
 import {MailOutlined, LoadingOutlined , GoogleOutlined} from '@ant-design/icons';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { createOrUpdateUser } from '../../functions/createUpdate';
+import Logo from '../../components/layout/partials/Logo';
 
 
 
@@ -146,25 +149,29 @@ const Login = (props)=>{
              shape = "round"
              block
              icon = {<MailOutlined/>}
-             className = {"mb-3"}
+             className = {"mb-1 col-lg-12 d-block"}
              >{loading?<LoadingOutlined />:"Login with email/password"}</Button>
-             
-             <Button 
+             </div>
+
+             <div className="form-group">
+             <Button
              type={"danger"}
              onClick={googleLogin}
              shape = "round"
              block
              icon = {<GoogleOutlined/>}
-             classNloaame = {"mb-3"}
+             className = {"mb-1 col-lg-12 d-block"}
              >Google sign In</Button>
-             <Link to="/forgotten/password" className="float-right text-danger">Forgotten password?</Link>
              </div>
+             <Link to="/forgottenButton/password" className="h7 text-danger">Forgotten password?</Link><br/>
+             <Link to="/forgottenButton/password" className="h7 text-danger">don't have an account?, <span className="text-primary">Create one</span></Link>
+
         </form>
     return (
     <div className={"container p-5"}>
         <div className={"row"}>
-            <div className={"col-lg-6 offset-md-3"}>
-               <center> <h4>Login</h4></center>
+            <div className={"col-lg-4 border p-3 offset-md-3"}>
+               <center> <Logo/> <h4>Login</h4></center>
                 {formRegister()}
             </div>
         </div>
