@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {auth} from '../../firebase';
 import {toast}  from 'react-toastify';
+import Logo from '../../components/layout/partials/Logo';
 
 
 
@@ -27,15 +28,16 @@ const Register = (props)=>{
     }
 
     const formRegister = () => <form onSubmit={handleSubmuit}>
+            <div className={"form-group"}>
             <input className={"form-control"} placeholder={"Your Email"} name={email} onChange={e=>setEmail(e.target.value)} type={'email'} autoFocus />
-            <br/>
+            </div>
             <button className={"btn btn-raised"} type={"submit"}>Register</button>
         </form>
     return (
     <div className={"container p-5"}>
         <div className={"row"}>
-            <div className={"col-lg-6 offset-md-3"}>
-               <center> <h4>Register</h4></center>
+            <div className={"col-lg-5 offset-md-3 border p-3 shadow"}>
+               <center> <Logo/> <h4>Register</h4></center>
                 {formRegister()}
             </div>
         </div>

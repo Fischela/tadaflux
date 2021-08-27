@@ -170,7 +170,7 @@ const Login = (props)=>{
     return (
     <div className={"container p-5"}>
         <div className={"row"}>
-            <div className={"col-lg-4 border p-3 offset-md-3"}>
+            <div className={"shadow col-lg-4 border p-3 offset-md-3"}>
                <center> <Logo/> <h4>Login</h4></center>
                 {formRegister()}
             </div>
