@@ -37,6 +37,10 @@ app.get("/", (req, res)=>{
     res.sendFile(__dirname+"/build/"+"index.html")
 })
 
+app.get("*", (req, res)=>{
+    res.sendFile(__dirname+"/build/"+"index.html")
+})
+
 console.log(__dirname+"/build/"+"index.html")
 
 
